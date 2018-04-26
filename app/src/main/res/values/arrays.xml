@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currencyNameList">
+        <item>Canadian Dollar</item>
+        <item>United States Dollar</item>
+    </string-array>
+    
+    <string-array name="currencyCodeList">
+        <item>CAD</item>
+        <item>USD</item>
+    </string-array>
+    
+    <string-array name="languageList">
+        <item>System</item>
+        <item>English</item>
+        <item>Pyccknn</item>
+        <item>Portugues (Brazil)</item>
+        <item>Espanol</item>
+        <item>Italiano</item>
+        <item>Francais</item>
+        <item>Deutsch</item>
+        <item>Nederlands</item>
+        <item>Polski</item>
+        <item>Chinese</item>
+        <item>Turkce</item>
+        <item>Bahasa Indonesia</item>
+        <item>No idea</item>
+        <item>Another no idea</item>
+    </string-array>
+    
+    <string-array name="viewList">
+        <item>Accounts Overview</item>
+        <item>Latest Transactions</item>
+        <item>High Spending Alerts</item>
+        <item>Expense By Category</item>
+        <item>Income Vs Expense</item>
+    </string-array>
+    
+    <string-array name="statusList">
+        <item>Cleared</item>
+        <item>Uncleared</item>
+        <item>Reconciled</item>
+        <item>Void</item>
+    </string-array>
+
+    <string-array name="repeatsEveryList">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+</resources>

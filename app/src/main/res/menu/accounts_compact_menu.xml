@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Hide"
+        android:id="@+id/action_compact_account_hide"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+    <item android:title="Reorder"
+        android:id="@+id/action_compact_account_reorder"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+    <item android:title="Reorder Account"
+        android:id="@+id/action_compact_account_reorder_account"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+    <item android:title="New Account"
+        android:id="@+id/action_compact_account_new_account"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+    <item android:title="Switch To List Mode"
+        android:id="@+id/action_compact_account_switch_to_list_mode"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+</menu>

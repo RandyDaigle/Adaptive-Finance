@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Reorder Accounts"
+        android:id="@+id/action_user_accounts_listview_reorder_account"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+</menu>

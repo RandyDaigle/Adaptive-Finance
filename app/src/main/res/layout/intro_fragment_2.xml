@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/intro_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <ImageView
+            android:id="@+id/computer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/finance_logo"
+            android:layout_weight="4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/accountSetUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/set_up_account_title"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="top|center"
+                    android:textSize="24sp"/>
+
+                <TextView
+                    android:id="@+id/cashAllTextEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cash_all_title"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="bottom|center"
+                    android:maxEms="18"
+                    android:textSize="20sp"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_edit_border_color">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:layout_height="match_parent"
+                            android:text="@string/optional_label"/>
+
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_weight="3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/bankAllTextEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bank_all_title"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="top|center"
+                    android:textSize="20sp"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/bankAmountTextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_edit_border_color">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:layout_height="match_parent"
+                            android:text="@string/optional_label"/>
+
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_weight="3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
